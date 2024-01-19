@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "siko",
+    "slug": "siko",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "sikomola",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/maincat.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+       "minify": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "sikola.com",
+       "minify": false
+    },
+    "web": {
+      "favicon": "./assets/maincat.png"
+    },
+    "plugins": [
+      "expo-router",
+       "expo-document-picker"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "92825026-c8b1-49c4-8b1b-cc55c2988e6e"
+      }
+    }
+  }
+}
